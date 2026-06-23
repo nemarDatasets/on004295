@@ -1,0 +1,29 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004295",
+  "source": "openneuro",
+  "source_id": "ds004295",
+  "title": "Reward gain and punishment avoidance reversal learning",
+  "authors": {
+    "Christopher Stolz": {},
+    "Alan Pickering": {},
+    "Erik M. Mueller": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004295.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.1.1",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ]
+}
