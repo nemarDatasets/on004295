@@ -1,1 +1,3 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004295-blue)](https://doi.org/10.82901/nemar.on004295)
+
 Two reversal learning tasks with different reinforcer (monetary reward vs. primary threat reinforcer). Positive feedback in the reward task indicated monetary reward (+10 Cent) and negative feedback monetary non-reward (+0 Cent). In the punishment task, positive feedback signaled successful avoidance of a loud white noise burst and negative feedback the application of the noise burst. The white noise burst intensity was titrated to match monetary reward (+10 Cent) for every participant (81 dB, 84 dB, 87, dB, 90 dB).
