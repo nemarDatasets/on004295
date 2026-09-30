@@ -2,7 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Reward gain and punishment avoidance reversal learning",
-  "description": "This dataset comprises two reversal learning tasks designed to investigate differential neural processing of reward gain and punishment avoidance. Participants performed parallel tasks using distinct reinforcers: monetary reward (gain/non-gain feedback) and primary threat avoidance (noise burst avoidance/application), with noise intensity individually titrated to match subjective value of monetary reward across participants.",
+  "description": "EEG recordings from participants performing two reversal learning tasks that differ in reinforcer type: monetary reward versus avoidance of an aversive loud white noise burst. In the reward task, positive feedback meant a gain of 10 cents and negative feedback meant no gain. In the punishment task, positive feedback meant the noise burst was successfully avoided and negative feedback meant the noise was delivered. Noise intensity was titrated per participant to match the motivational value of the 10 cent reward.",
+  "methods_description": "Participants completed a monetary reward reversal learning task and a punishment avoidance reversal learning task with EEG recording. The punishment reinforcer was a white noise burst whose intensity (81, 84, 87 or 90 dB) was titrated for each participant to match the 10 cent reward.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,22 +13,24 @@
   },
   "keywords": [
     {
+      "term": "EEG"
+    },
+    {
       "term": "reversal learning"
     },
     {
-      "term": "reward processing"
+      "term": "Reward",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012201"
     },
     {
       "term": "punishment avoidance"
     },
     {
-      "term": "reinforcement learning"
+      "term": "feedback processing"
     },
     {
-      "term": "decision making"
-    },
-    {
-      "term": "neuroimaging"
+      "term": "aversive noise"
     }
   ],
   "related_identifiers": [
@@ -37,14 +40,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004295",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds004295.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004295",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -52,7 +55,7 @@
     "eeg"
   ],
   "sizes": [
-    "33.8 GB (97 files)"
+    "31.51 GB (97 files)"
   ],
   "formats": [
     ".fdt",
@@ -68,6 +71,5 @@
     ".wav",
     ".yml"
   ],
-  "methods_description": "Two reversal learning tasks were administered with different reinforcement contingencies. The reward task provided positive feedback indicating monetary gain (+10 cents) or non-reward (+0 cents), while the punishment task used positive feedback to signal successful avoidance of a loud white noise burst or negative feedback indicating noise application. White noise intensity was individually calibrated (81-90 dB) for each participant to equate subjective value with monetary reward.",
   "source_hash": "1c9394768d256064a97f652600ea57fdd9e45fd34c4ea9fd4f3e85b62ce915b8"
 }
